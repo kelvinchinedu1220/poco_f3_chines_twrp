@@ -11,9 +11,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 # Inherit from this product for devices that support only 64-bit apps using:
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 
-# Enable virtual A/B OTA
-$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
-
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
